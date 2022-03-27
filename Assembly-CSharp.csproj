@@ -60,6 +60,8 @@
     <Compile Include="Assets\Scripts\SpawnObjectsController.cs" />
     <Compile Include="Assets\Scripts\ObstacleMovement.cs" />
     <Compile Include="Assets\Scripts\TopColliderCleaner.cs" />
+    <Compile Include="Assets\Scripts\PointMovement.cs" />
+    <Compile Include="Assets\Scripts\GameplayController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
