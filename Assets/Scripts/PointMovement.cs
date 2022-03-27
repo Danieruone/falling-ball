@@ -12,7 +12,6 @@ public class PointMovement : MonoBehaviour
         gameplayGameobject = GameObject.Find("GameController").GetComponent<GameplayController>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         transform.position = new Vector2(transform.position.x, transform.position.y + speed * Time.deltaTime);
